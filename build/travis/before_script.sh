@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+. build/sh/magento_connect.sh
+
 # Prepare magento connect download
 (
     composer global config http-basic.repo.magento.com "${MAGENTO_CONNECT_USERNAME}" "${MAGENTO_CONNECT_PASSWORD}"
