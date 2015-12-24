@@ -48,7 +48,7 @@ install:
   - travis_retry composer install --prefer-source --no-interaction --ignore-platform-reqs
 
 before_script:
-  - source ./build/travis/before_script.sh
+  - source build/travis/before_script.sh
 
 script:
   - vendor/bin/phpunit --debug
