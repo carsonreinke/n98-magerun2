@@ -1,6 +1,5 @@
-dist: trusty
-
 language: php
+dist: trusty
 
 branches:
   only:
