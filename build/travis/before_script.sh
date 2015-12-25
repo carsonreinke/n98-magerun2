@@ -9,7 +9,7 @@
 if [ ! -z ${MAGENTO_VERSION+x} ]; then
 
     # Install MySQL 5.6
-    ./build/travis/mysql-5.6-install.sh
+    build/travis/mysql-5.6-install.sh
 
     echo "installing magento ${MAGENTO_VERSION}"
 
