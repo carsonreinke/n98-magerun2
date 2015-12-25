@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+. build/sh/magento_connect.sh
 
 # Prepare magento connect download
 (
